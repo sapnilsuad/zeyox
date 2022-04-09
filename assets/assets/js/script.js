@@ -255,3 +255,7 @@ try {
       caseImages.classList.remove("on");
     });
     
+    window.addEventListener("scroll", ()=>{
+        let currentP = window.scrollY;
+        console.log(currentP);
+    });

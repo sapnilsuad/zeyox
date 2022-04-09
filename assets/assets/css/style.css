@@ -18,6 +18,81 @@
     font-family:'TTFirsNeue-Regular';
     src: url(assets/fonts/TTFirsNeue-Medium) format(Regular);
 }
+
+
+.ld-fancy-heading.text-lowercase .ld-fh-element, .ld-fancy-heading.text-uppercase .ld-fh-element, .ld-fancy-heading.text-capitalize .ld-fh-element{
+    text-align: left !important;
+}
+.btn.border-none>span{display: none !important;}
+.lqd-simple-heading-wrap, .ld-fancy-heading, .h6{text-align: left !important; color:#000;
+}
+.ld_spacer_60a65ae392b15 {
+    display: none !important;
+}
+/* first Section */
+.f_section {
+    padding-top: 210px;
+    padding-bottom: 100px;
+}
+.ld-fancy-heading .split-inner{font-weight: 500 !important;}
+.cstm_container {
+    max-width: 1304px !important;
+    height: 70vh;
+    margin: auto;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.heading_1st_sec{color: #000 !important;
+    font-size: 100px !important;
+    width: 100% !important;
+        letter-spacing: 3px;
+        line-height: 3;
+}
+.sub_title_first_sec{color: #767676 !important;
+    width: calc(100% - 20%);
+    font-size: 24px !important;
+    line-height: 2;
+}
+
+/* Txt moving Sec */
+.project-title{font-size:140px !important}
+.wall-project .project-title:hover{
+    color: #fff  !important;
+  }
+.video_section{
+    margin: 60px 0 ;
+}
+.video_container{
+    width: 1620px;
+    height: 926px;
+    margin: auto;
+
+}
+.video_section .video_container .video_content img{
+    width: 1620px !important;
+    box-sizing: border-box;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+}
+.video_section .video_container .video_content img.active1{
+    width: 1550px !important;
+    margin: auto;
+}
+.video_section .video_container .video_content img.active2{
+    width: 1420px !important;
+    margin: auto;
+}
+.video_section .video_container .video_content img.active3{
+    width: 1320px !important;
+    margin: auto;
+}
+.video_section .video_container .video_content img.active4{
+    width: 1220px !important;
+    margin: auto;
+}
+
+
 /* Design_title_Section  */
 .c_left{float: left;} 
 .c_right{float: right;}
@@ -208,36 +283,32 @@ margin-top: -6px;
     transition: 0.3;
     transition-delay: 0.2s;
 }
+
+
 /* Work Sec */
 .work_section{
     padding: 100px 0;
 
 }
-/* After adding the class
 
-#d_text1, #d_text2{
-    width:100%;
-    overflow:hidden !important;
-    box-sizing:border-box !important;
-    margin:auto;
-} */
 
 .work_container{
-    width: 960px;
+    max-width: 1360px;
     margin: auto;
 }
 .work_content{
     padding: 40px;
 }
 .work_left{
-    width: 35%;
+    width: 40%;
 }
 .work_title{
-    padding-left: 8px;
+text-align: left;
 }
 .work_title h2{
-font-size: 47px;
+font-size: 80px;
 margin-bottom: 13px;
+line-height: 1;
 font-family:'TTFirsNeue-Medium';
 }
 
@@ -313,8 +384,11 @@ font-family:'TTFirsNeue-Medium';
 
 /* Right work */
 .work_right{ 
-    width: 65%;
+    width: 60%;
  }
+
+
+
 
  /* Dragabble Itme */
  .cb-smfeed-item-url svg{
