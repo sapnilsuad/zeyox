@@ -1,0 +1,122 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+/*        10-01  hk        */
+/* Shortliste Icon  */
+.showuserart{
+  display: grid!important;
+  grid-gap:15px;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  align-items: start;
+}
+.talent-btn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 9;
+    width: 20px!important;
+    height: 20px!important;
+}
+img.gravatar.avatar.avatar-200.um-avatar.um-avatar-default, .um-avatar-uploaded {
+    width: inherit;
+}
+.showuserart .innerdetail{
+  width: inherit!important;
+  display: inherit!important;
+  background-color: transparent!important;
+}
+
+
+.mmy-membrs .talent-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.showuserart .innerdetail {
+    width: 23%;
+    display: inline-block;
+    background: #eee;
+    margin: 0 4px 22px;
+    padding: 0;
+}
+
+.um-account-main {
+    width: inherit;
+}
+
+
+
+.innerdetail a:last-child {
+    padding: 16px 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.innerdetail span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #666;
+    color: #fff;
+    padding: 6px 19px;
+    cursor: pointer;
+}
+
+.innerdetail {
+    position: relative;
+}
+
+.innerdetail h3 {
+    font-size: 14px;
+    padding: 5px;
+}
+span#sndmailfrnds, span#sndmailusers{
+    background-color: #ed2563;
+    padding: 8px 20px;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.showuserart{
+
+	margin-top: 30px;
+}
+
+/* Submit buttons */
+#sendmail_friends,
+#sendmail_members {
+    background: #ED2563;
+    color: #fff;
+    padding: 9px 30px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* Input fields and text area */
+div#send_users input,
+div#send_friends input {
+    border: 1px solid #ccc !important;
+    box-shadow: 0 0 2px #ccc !important;
+    margin: 15px 0 !important;
+    font-size: 15px !important;
+    color: #333 !important;
+    width: 100%;
+}
+
+div#send_users textarea,
+div#send_friends textarea {
+ {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 2px #ccc;
+    margin: 15px 0;
+    font-size: 15px !important;
+    color: #333 !important;
+}
